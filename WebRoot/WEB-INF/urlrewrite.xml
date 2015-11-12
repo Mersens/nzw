@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN"  "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
+<urlrewrite>
+			<rule><note>获取用户的登录信息</note><from>/getUserSession.html</from><to>/GetuserSession/gotoData</to></rule>
+			<!-- 注册登录找回密码 -->
+			<rule><note>跳转到验证码页面</note><from>/yanzhengma.html</from><to>/WEB-INF/u_login/validatecode.jsp</to></rule>
+            <rule><note>跳转到登陆页面</note><from>/login.html</from><to>/login/gotoLogin</to></rule>
+			<rule><note>跳转到登陆页面</note><from>/reg.html</from><to>/WEB-INF/u_login/reg.jsp</to></rule>
+			<rule><note>跳转到找回密码</note><from>/findpwd.html</from><to>/WEB-INF/u_login/findpassword_1.jsp</to></rule>
+			<rule><note>跳转到找回密码</note><from>/findpwd_2.html</from><to>/password/gotoFindPassword2</to></rule>
+			<rule><note>跳转到找回密码</note><from>/findpwd_3.html</from><to>/password/gotoFindPassword3</to></rule>
+			<rule><note>跳转到找回密码成功页面</note><from>/success.html</from><to>/password/gotoFindPassword4</to></rule>
+			<rule><note>退出登录</note><from>/exit.html</from><to>/login/loginOut</to></rule>
+			<!-- 账户部分数据连接 -->
+			<rule><note>跳转到个人信息</note><from>/user.html</from><to>/zhanghuCenter/gotoZhanghuSafe</to></rule>
+			<rule><note>跳转到用户个人信息</note><from>/user/info.html</from><to>/zhanghuCenter/gotoGerenXinxi</to></rule>
+			<rule><note>弹出上传头像页面</note><from>/user/zhanghu/up.html</from><to>/WEB-INF/zhanghu/upFile.jsp</to></rule>
+			
+			<rule><note>跳转到修改用户绑定的手机号码</note><from>/user/zhanghu/xgsj.html</from><to>/zhanghuCenter/gotoUpdatePhone_1</to></rule>
+			<rule><note>跳转到修改用户绑定的手机号码</note><from>/user/zhanghu/xgsj2.html</from><to>/zhanghuCenter/testOldPhoneCode</to></rule>
+			<rule><note>跳转到修改用户绑定的手机号码</note><from>/user/zhanghu/xgsj3.html</from><to>/zhanghuCenter/testNewPhoneCode</to></rule>
+			<rule><note>跳转到修改用户绑定的手机号码</note><from>/user/zhanghu/xgsjsuccess.html</from><to>/WEB-INF/zhanghu/xiugaishouji_3.jsp</to></rule>
+			
+ 			<rule><note>跳转到安全中心</note><from>/user/zhanghu/safe.html</from><to>/zhanghuCenter/gotoZhanghuSafe</to></rule>
+			<rule><note>跳转到修改密码</note><from>/user/zhanghu/xgmm.html</from><to>/WEB-INF/zhanghu/xiugaimima.jsp</to></rule>
+			
+			
+			
+			<!-- 我的信息数据连接 -->
+			<rule><note>跳转到我的信息页面</note><from>/user/message.html</from><to>/message/gotoMyMessage</to></rule>
+			<!-- 公司信息 -->
+			<rule><note>跳转到发布公司动态页面</note><from>/user/company/addnews.html</from><to>/gongsi/gotoFabuDongtai</to></rule>
+			<rule><note>跳转到公司动态页面</note><from>/user/company/news.html</from><to>/gongsi/gotoGongsiDongtai</to></rule>
+			<rule><note>跳转到公司信息页面</note><from>/user/company/info.html</from><to>/gongsi/gotoGongsiXinxi</to></rule>
+			<rule><note>跳转到公司信息审核页面</note><from>/user/company/shenhe.html</from><to>/gongsi/gotoRenzhengGongsiXinxi</to></rule>
+			<rule><note>跳转到旺铺资料页面</note><from>/user/company/wangpuinfo.html</from><to>/gongsi/gotoWangpuZiliao</to></rule>
+			<!-- 询盘数据连接 -->
+			<rule><note>跳转到询盘信息页面</note><from>/user/seller/xjd.html</from><to>/xunjia/gotoXunjiadan</to></rule>
+			
+			<!-- 卖家部分链接管理 -->
+			<rule><note>跳转到发布产品页面</note><from>/user/seller/fabu.html</from><to>/WEB-INF/seller/fabuchanpin_1.jsp</to></rule>
+			<rule><note>跳转到选择产品类型</note><from>/user/seller/fabu2.html</from><to>/user/seller/fabu2_0_0_0.html</to></rule>
+			<rule><note>跳转到选择产品类型</note><from>/user/seller/fabu2_([0-9]+)_([0-9]+)_([0-9]+).html</from><to>/sellerCenter/gotoSelectChanpinLeimu?fid=$1&amp;leimuid=$2&amp;cid=$3</to></rule>
+			<rule><note>跳转到选择产品类型</note><from>/user/seller/fabu3.html</from><to>/sellerCenter/gotoAddChanpinXinxi</to></rule>
+			<rule><note>跳转到选择产品类型</note><from>/user/seller/fabu4.html</from><to>/WEB-INF/seller/fabuchanpin_4.jsp</to></rule>
+			<rule><note>跳转到添加产品成功页面</note><from>/user/seller/fabusuccess.html</from><to>/sellerCenter/gotoAddChanpinSuccess</to></rule>
+			<rule><note>跳转到添加产品管理页面</note><from>/user/seller/shangpin.html</from><to>/sellerCenter/gotoChanpinGuanli</to></rule>
+			
+			<!-- 网站www部分   首页部分链接 -->
+			<rule><note>网站首页</note><from>/index.html</from><to>/website/gotoindex</to></rule>
+			
+			<!-- 数据管理链接 -->
+			<rule><note>跳转到显示属性页面</note><from>/shuxing.html</from><to>/shuju/gotoShuxingDatas</to></rule>
+			<rule><note>跳转到添加属性页面</note><from>/addshuxing.html</from><to>/shuju/gotoAddShuxing</to></rule>
+			<rule><note>跳转到产品用途页面</note><from>/yongtu.html</from><to>/shuju/gotoYongtuDatas</to></rule>
+			<rule><note>跳转到添加属性页面</note><from>/addyongtu.html</from><to>/shuju/gotoAddYongtu</to></rule>
+			<rule><note>跳转到成分页面</note><from>/chengfen.html</from><to>/shuju/gotoChengfenDatas</to></rule>
+			<rule><note>跳转到添加成分页面</note><from>/addchengfen.html</from><to>/shuju/gotoAddChengfen</to></rule>
+			<rule><note>跳转到产品品牌页面</note><from>/pinpai.html</from><to>/shuju/gotoChanpinPinpai</to></rule>
+			<rule><note>跳转到添加产品品牌页面</note><from>/addpinpai.html</from><to>/shuju/gotoAddPinpai</to></rule>
+			<rule><note>跳转到类目属性页面</note><from>/leimushuxing.html</from><to>/shuju/gotoLeimuShuxing</to></rule>
+			<rule><note>跳转到添加类目属性页面</note><from>/addleimushuxing.html</from><to>/shuju/gotoAddLeimuShuxing</to></rule>
+			
+</urlrewrite>

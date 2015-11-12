@@ -1,0 +1,153 @@
+/* CSS Document */
+
+
+/*买方-采购管理*/
+.main_r {min-width: 880px;float: right;background: #fff;min-height:942px;}
+.r_tit {width: 884px;border-bottom: #ccc solid 2px;height: 38px;line-height: 38px;background: #fff;font-size: 14px;font-weight: bold;color: #303030;padding-left: 21px;overflow: hidden;}
+.r_tit a{ position:absolute; right:12px; top:0px; color:#666; font-weight:normal;}
+.r_tit a:hover{color:#ff4400;text-decoration: none}
+.cgd_m{ width:860px; margin:0 auto;}
+.cgd_gl{ line-height:30px; margin-top:12px;}
+.cgd_gl a{ color:#000; width:110px;height: 27px;text-align: center;line-height: 27px; display:inline-block; overflow:hidden; border:#fff solid 1px;}
+.cgd_gl a:hover,.cgd_gl a.qhover{ border: 1px solid #ff7700; color: #ff7700; text-decoration:none; line-height: 27px;}
+.cgd_sxl input{  font-family:"Microsoft Yahei","微软雅黑";width:200px; height:30px; border:#ddd solid 1px; line-height:30px; padding-left:5px; color:#999;}
+.srnm{ float:left;}
+input.rq_inp{ width:130px; color:#333; background:url(/images/rq_bg.png) no-repeat 74px center;}
+.fbsj{ margin-left:30px; float:left;}
+.cgd_ss{ width:62px; height:30px; background:#fc9300; cursor:pointer; color:#fff; text-align:center;font-family:"Microsoft Yahei","微软雅黑"; border:none; margin-left:10px;}
+.cgd_ss:hover{ background:#fc7d00}
+.cgd_tab{ width:860px; border:#ddd solid 1px; margin:20px auto; border-collapse: collapse; border-spacing: 0;}
+.cgd_tab a{ color:#496ab4;}
+.cgd_tab th{ height:38px; line-height:38px; background:#f5f5f5; font-weight:normal;}
+.cgd_tab td{ padding:10px 12px; border-right:#ddd solid 1px; border-bottom:#ddd solid 1px;}
+.cgd_tab .gs{ color:#496ab4; margin-left:5px; font-weight:bold; line-height:20px;}
+.ckbj,.cxxj{ background:none; border:none; font-family:"Microsoft Yahei","微软雅黑"; text-align:center; color:#496ab4; line-height:18px; cursor:pointer;}
+.ckbj:hover,.cxxj:hover{ text-decoration:underline;}
+.xjja:hover{text-decoration:underline;}
+.t_c{ text-align:center;}
+.zw{ width:212px; display:inline-block; overflow:hidden; color:#999; text-align:center;}
+.xxyy{ position:relative; width:18px; float:left; cursor:pointer;}
+.yuan{ width:auto; position:absolute; left:0; top:20px; _left:12px; _z-index:10; display:none; z-index:9;}
+.yuan_arr{background: url(/images/hongjiao.png) no-repeat;width:9px;height: 5px; margin-top:-4px;margin-left:7px; z-index: 10; position:absolute;}
+.yuan_nr{width: 120px;padding: 5px;border: 1px solid #ff5a00;border-radius: 3px; margin-left:-12px; line-height:16px; font-size: 12px;background-color:#fff; z-index: 8;}
+
+
+/*撤销询价弹窗*/
+.gray_bg{ width:100%; height:100%; position:fixed; _position:absolute; left:0; top:0;
+ _height:expression(document.body.offsetHeight+"px");
+z-index:99; background:#000; filter:alpha(opacity=20); -moz-opacity:0.20; opacity:0.20; }
+.tanchuang{ width:550px; height:auto; position:fixed; _position:absolute; left:50%; top:0; z-index:99999; margin-left:-280px; background:#FFF; }
+.tgsz_t{ width:510px; line-height:46px; height:46px; margin:0 auto; border-bottom:#dbe0e3 solid 1px;}
+.tgsz_t span{ font-size:14px; font-weight:bold; float:left;}
+.tg_close{ border:none; margin-top:14px; width:19px; height:19px; cursor:pointer; outline:none; background:url(/images/close_bg.png) no-repeat; display:inline-block; overflow:hidden; float:right;}
+.tanchuang img{ display:block; margin:30px auto;}
+
+.wyxf_m{ width:510px; overflow:hidden; margin:0 auto;}
+.wyxf_ts{ width:480px;  height:32px; line-height:32px;  color:#555; border:#ebd2a0 solid 1px; margin:10px 0;
+ background:#fdf8ee url(/images/top_ts.png) no-repeat 10px center; padding-left:28px; }
+.xzyy_t{ clear:both;font-weight:bold; margin-top:12px;}
+
+.xzyy_m{ margin-top:10px;}
+.yy_m{ width:220px; float:left; margin:6px 0; }
+.txyy{ width:200px; height:27px; line-height:27px; border:#ddd solid 1px; margin-left:10px; padding-left:5px; color:#999;}
+.bcsm{ width:503px; margin-top:10px; height:96px; border:#ddd solid 1px; padding-left:5px; outline:none;}
+.cx_but{ width:198px; margin:20px auto; display:block; overflow:hidden;}
+.cx_but input{ float:left; width:88px; height:33px; font-size:16px; font-family:"Microsoft Yahei","微软雅黑"; cursor:pointer; line-height:33px; background:#317ee7; color:#fff; text-align:center; display:inline-block; overflow:hidden; border:none;}
+.cx_but .qd_but:hover{background-color:#0954b4;}
+ .cx_but .quxiao:hover{background-color:#999;}
+input.qx_but{ background:#bcbcbc; margin-left:18px;}
+table.cgd_tab tr td{
+	text-align:center;
+}
+
+
+.reveal-modal-bg{
+	position:fixed;
+	height:100%;
+	width:100%;
+	background-color:#000;
+	z-index:9998;
+	display:none;
+	top:0;
+	left:0;
+}
+.reveal-modal3{
+	visibility:hidden;
+	top:250px;
+	left:60%;
+	margin-left:-400px;
+	width:430px;
+	padding-bottom:20px;
+	background:#fff;
+	position:absolute;
+	z-index:9999;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:8px;
+	-moz-box-shadow:0 0 10px rgba(0,0,0,.4);
+	-webkit-box-shadow:0 0 10px rgba(0,0,0,.4);
+	-box-shadow:0 0 10px rgba(0,0,0,.4);
+}
+
+.reveal-modal3 .reveal-modal-title{
+	width:430px;
+	height:40px;
+	line-height:40px;
+	text-indent:1em;
+	text-align:left;
+	font-size:18px;
+	color:#4c4c4c;
+	border-bottom:1px solid #d3d3d3;
+}
+.reveal-modal3 .reveal-modal-title span{
+	float:left;
+	width:230px;
+	font-size:14px;
+}
+.reveal-modal3 .reveal-modal-title a.close-reveal-modal{
+	position:absolute;display:block;right:15px;margin-top:12px;top:0px;font-size:14px;background-image:url(/resources/images/close.fw.png);
+	background-repeat:no-repeat;background-position:center top;width:17px;height:17px;cursor:pointer;display:inline-block;
+}
+.reveal-modal3 .reveal-modal-title a.close-reveal-modal:hover{
+	background-position:center bottom;
+}
+.reveal-modal3 .reveal-con{
+	width:430px;
+	margin:0px auto;
+	text-align:center;
+	font-size:14px;
+	position:relative;
+	margin-top:5px;
+}
+.reveal-modal3 .reveal-Xuanze{
+	width:180px;
+	margin:0px auto;
+}
+.reveal-modal3 .reveal-Xuanze a{
+	float:left;
+	display:block;
+	width:80px;
+	height:30px;
+	line-height:30px;
+	color:#fff;
+	text-align:center;
+	text-decoration:none;
+	border-radius:4px;
+}
+.reveal-modal3 .reveal-Xuanze a.Qushishi{
+	float:left;
+	background:#008833;
+	color:#fff;
+}
+.reveal-modal3 .reveal-Xuanze a.Zhidaole{
+	float:right;
+	background:#F90;
+	color:#fff;
+}
+.reveal-modal3 .reveal-con span{
+	float:left;	
+}
+.reveal-modal3 .reveal-con span.Spwidth{
+	width:100px;
+	text-align:right;
+}

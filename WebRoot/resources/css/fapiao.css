@@ -1,0 +1,127 @@
+/* CSS Document */
+
+.tc_close {
+width: 19px;
+height: 19px;
+cursor: pointer;
+background: url(../images/close_bg.png) no-repeat;
+display: inline-block;
+overflow: hidden;
+border: none;
+float: right;
+margin-top: 12px;
+}
+/*发票管理样式*/
+.dizi{width: 896px;border-bottom: #ccc solid 2px;height: 38px;line-height: 38px;background: #fff;font-size: 14px;font-weight: bold;color: #303030;padding-left: 9px;overflow: hidden;}
+.guanli{ width:856px; margin:0 auto; margin-top:13px;}
+.fpgl{ width:862px; margin:20px auto; overflow:hidden;}
+.fpgl_t{ width:auto; float:left; overflow:hidden; position:relative; margin-bottom:-1px; z-index:9;}
+.fpgl_t li{ float:left; width:100px; background:#fff; line-height:34px; display:inline-block; overflow:hidden;height: 36px;}
+.fpgl_t li.cur{ border:#ddd solid 1px; border-top:#2291dc solid 2px;border-bottom:none;} 
+.fpgl_t li a{ width:100px; font-size:14px; background:#fff; text-align:center; display:inline-block; overflow:hidden; color:#f60;}
+.fpgl_t li.cur a{ color:#2291dc;}
+.zzfp,.ptfp{ width:860px; border:#ddd solid 1px; text-align:center; background:#fdfdfd; line-height:38px;clear:both; border-collapse: collapse; border-spacing: 0; position:relative;}
+.zzfp th,.ptfp th{ color:#333; font-weight:normal; border-bottom:#ddd solid 1px;}
+.zzfp td,.ptfp td{ border-bottom:#ddd solid 1px; border-right:#ddd solid 1px; line-height:20px; padding:10px 10px; color:#666;}
+.fp_but{ color:#0e54b2; border:none; background:none; cursor:pointer; font-family:"Microsoft Yahei","微软雅黑"; }
+.fp_but:hover{ text-decoration:underline;}
+.t_l{ text-align:left;}
+.yhzh{ width:100px;overflow:hidden;white-space: nowrap;text-overflow: ellipsis; display:inline-block;}
+.nxx{ width:858px; border:#ddd solid 1px; display:inline-block; font-size:14px; color:#666; overflow:hidden; background:#fdfdfd; line-height:190px; text-align:center;}
+.add_fp{ width:100px; height:34px; display:block; cursor:pointer; overflow:hidden; margin:42px auto; background:#fc9300; text-align:center; font-size:16px; line-height:34px; color:#fff;}
+.add_fp:hover{ background:#f60; text-decoration:none;}
+/*.ptfp span{ margin-left:20px;}*/
+.ptfp .t_l{ color:#333;}
+.tt_l{ text-align:left; padding-left:10px;}
+
+/*增值发票弹窗*/
+
+
+.reveal-modal-bg{
+	position:fixed;
+	height:100%;
+	width:100%;
+	background-color:#000;
+	z-index:9998;
+	display:none;
+	top:0;
+	left:0;
+}
+.reveal-modal3{
+	visibility:hidden;
+	top:250px;
+	left:60%;
+	margin-left:-400px;
+	width:630px;
+	padding-bottom:20px;
+	background:#fff;
+	position:absolute;
+	z-index:9999;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:8px;
+	-moz-box-shadow:0 0 10px rgba(0,0,0,.4);
+	-webkit-box-shadow:0 0 10px rgba(0,0,0,.4);
+	-box-shadow:0 0 10px rgba(0,0,0,.4);
+}
+
+.reveal-modal3 .reveal-modal-title{
+	width:630px;
+	height:45px;
+	line-height:45px;
+	text-indent:1em;
+	text-align:left;
+	font-size:18px;
+	color:#4c4c4c;
+	padding-top:15px;
+}
+.reveal-modal3 .reveal-modal-title span{
+	float:left;
+	width:230px;
+}
+.reveal-modal3 .reveal-modal-title a.close-reveal-modal{
+	position:absolute;display:block;right:15px;margin-top:10px;top:0px;font-size:14px;background-image:url(../images/close.fw.png);
+	background-repeat:no-repeat;background-position:center top;width:17px;height:17px;cursor:pointer;display:inline-block;
+}
+.reveal-modal3 .reveal-modal-title a.close-reveal-modal:hover{
+	background-position:center bottom;
+}
+.reveal-modal3 .reveal-con{
+	width:630px;
+	margin:0px auto;
+	text-align:center;
+	font-size:16px;
+	position:relative;
+	margin-top:5px;
+}
+.reveal-modal3 .reveal-con p{
+	position:absolute;
+	top:390px;
+	left:126px;
+}
+
+
+
+
+.zzfp_tc{ width:auto; background:#FFF; margin:0px;}
+.ptfp_tc{ width:auto !important;}
+.fptc_t{ /*width:556px;*/ margin:0 10px; overflow:hidden; border-bottom:#ddd solid 1px;}
+.ptfp_tc .fptc_t{ width:auto;}
+.fptc_t .tc_close{ margin-top:18px; outline:none;}
+.fptc_tit{ font-size:16px; color:#5f5f5f; line-height:55px; float:left; width:auto;}
+.fptc_zs{ width:556px; margin:10px auto; line-height:22px; color:#5f5f5f;}
+.fp_m{ width:auto; margin:10px auto; line-height:30px; overflow:hidden;}
+.fp_m1{ width:auto; overflow:hidden; margin:8px 0;}
+.fp_left{ width:140px; float:left; text-align:right; margin-right:10px;}
+.fp_left span{ color:#f00;}
+.fp_right{ width:auto; float:left;}
+.fp_right input{ width:230px; border:#ddd solid 1px; font-family:"Microsoft Yahei","微软雅黑"; height:30px; line-height:30px; color:#999; padding-left:10px;}
+.bcf {margin-bottom:24px;  _margin-left:546px;
+}
+input.bcfpxx{ width:124px;outline:none; cursor:pointer;border:none; font-size:16px; font-family:"Microsoft Yahei","微软雅黑"; display:block; overflow:hidden; padding:8px 14px; color:#fff; background:#f90;}
+.bcfpxx:hover{ background:#f70;}
+.err_tip {
+    margin-left:5px; color:red;
+}
+/*普通发票弹窗*/
+/*.ptfp_tc{ margin:-102px 0 0 -305px;}*/

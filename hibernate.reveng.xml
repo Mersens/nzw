@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+
+	<table name="applychanpinlist" catalog="shangdingdai">
+		<primary-key>
+			<key-column name="applyid" />
+		</primary-key>
+	</table>
+	<table name="chanpinlist" catalog="shangdingdai">
+		<primary-key>
+			<key-column name="chanpinid" />
+		</primary-key>
+	</table>
+	<table name="chanpinyongtulist" catalog="shangdingdai">
+		<primary-key>
+			<key-column name="chanpinyongtuid" />
+		</primary-key>
+	</table>
+	<table name="chongzhimingxilist" catalog="shangdingdai">
+		<primary-key>
+			<key-column name="id" />
+		</primary-key>
+	</table>
+	<table name="loanlist" catalog="shangdingdai">
+		<primary-key>
+			<key-column name="loanid" />
+		</primary-key>
+	</table>
+	<table name="shangjialist" catalog="shangdingdai">
+		<primary-key>
+			<key-column name="id" />
+		</primary-key>
+	</table>
+	<table name="storenews" catalog="shangdingdai">
+		<primary-key>
+			<key-column name="newid" />
+		</primary-key>
+	</table>
+</hibernate-reverse-engineering>

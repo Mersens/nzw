@@ -1,0 +1,105 @@
+@charset "utf-8";
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+.cls:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.cls{zoom:1;}
+
+
+.s-index-org{color:#fff;}
+.s-index-icon,.s-index-star span{display:block;background-image:url(../images/s-index-icon-3.png);overflow:hidden;text-indent:-1000em;}
+
+/* s-index-star */
+.s-index-star{height:15px;_margin-top:-2px;font-size:0px;line-height:0px;}
+.s-index-star span{display:inline-block;margin-top:0px;width:13px;height:13px;overflow:hidden;background-position:-181px -22px;text-indent:0px;}
+.s-index-star-0 .one,.s-index-star-0 .two,.s-index-star-0 .three,.s-index-star-0 .four,.s-index-star-0 .five{background-position:-211px -22px;}
+.s-index-star-1 .two,.s-index-star-1 .three,.s-index-star-1 .four,.s-index-star-1 .five{background-position:-211px -22px;}
+.s-index-star-2 .two,.s-index-star-2 .three,.s-index-star-2 .four,.s-index-star-2 .five{background-position:-211px -22px;}
+.s-index-star-3 .three,.s-index-star-3 .four,.s-index-star-3 .five{background-position:-211px -22px;}
+.s-index-star-4 .three,.s-index-star-4 .four,.s-index-star-4 .five,.s-index-star-5 .four,.s-index-star-5 .five{background-position:-211px -22px;}
+.s-index-star-6 .four,.s-index-star-6 .five,.s-index-star-7 .five,.s-index-star-8 .five{background-position:-211px -22px;}
+.s-index-star-1 .one,.s-index-star-3 .two,.s-index-star-5 .three,.s-index-star-7 .four,.s-index-star-9 .five{background-position:-196px -22px;}
+
+
+/* s-index-side */
+.s-index-side{width:218px;border:1px solid #d3d3d3; padding-top:1px; border-top:0px;}
+.s-index-side .title{height:41px;background-color:#f5f5f5;position:relative;}
+.s-index-side .title .s-index-icon{position:absolute;width:20px;height:18px;top:11px;left:10px;}
+.s-index-side .title h3{padding-left:32px;height:40px;line-height:40px;color:#000;border-bottom:1px solid #d8d8d8;font-size:14px;}
+.s-index-side .title .game-top10-icon{background-position:-140px -54px}
+
+.s-index-side .app-show-block{
+	width:200px;
+	margin:0px auto;
+}
+
+.s-index-side .app-show-block a.pic{
+	display:block;
+	float:left;
+	margin-left:12px;
+}
+.s-index-side .app-show-block p{
+	float:left;
+	width:90px;
+	margin-left:9px;
+	line-height:25px;
+	font-size:12px;
+}
+.s-index-side .app-show-block p em{
+	color:#713000;
+	font-weight:bold;
+	font-size:12px;
+}
+.s-index-side .app-show-block a.chakan{
+	float:left;
+	display:block;
+	width:72px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	border:1px solid #d3d3d3;
+	margin-left:10px;
+	margin-top:6px;
+	font-size:12px;
+	*font-size:12px!important;
+	text-decoration:none;
+}
+.s-index-side .app-show-block a.chakan img{
+	float:right;
+	margin-right:6px;
+	margin-top:6px;
+}
+.s-index-side .app-show-block img{display:block;}
+
+.s-index-side .weekly-list{padding:0px 10px 2px 10px;margin-top:-1px;position: relative;}
+.s-index-side .weekly-list li{height:41px;line-height:41px;border-top:1px dotted #d8d8d8; *margin-top:-4px!important;overflow:hidden;*position:relative;zoom:1;}
+.s-index-side .weekly-list li .app-show-title{padding-left:5px;font-size:12px;}
+.s-index-side .weekly-list li .app-show-title a{ float:left;width:90px; color:#454545;}
+.s-index-side .weekly-list li .app-show-title p.PaihangTop{
+	float:left;
+}
+.s-index-side .weekly-list li .app-show-title p.PaihangTop img{
+	margin-right:6px;
+}
+.s-index-side .weekly-list li .num{
+	float:left; font-size:12px;
+	margin-top:13px; margin-right:10px;
+	 width:16px; text-align:center;
+	 height:16px;line-height:16px;
+	 color:#fff; background:url(../images/nue-bj.png) no-repeat;
+}
+.s-index-side .weekly-list li .s-index-org{
+	background:url(../images/nue-bj2.png) no-repeat;
+}
+.s-index-side .weekly-list li.current a{font-weight:bold; font-size:14px; color:#ff6c00;}
+.s-index-side .weekly-list li.current a.chakan{
+	font-weight:normal;
+	color:#454545;
+}
+.s-index-side .weekly-list li.current a.chakan:hover{
+	color:#ff6c00;
+	border:1px solid #ff6c00;
+}
+.s-index-side .weekly-list li.current .app-show-title a:hover{color:#ff4e00;}
+
+.s-index-down{display:block;text-align:center;font-size:12px;margin:0px auto;text-indent:0px;width:60px;height:25px;line-height:25px;color:#fff;text-decoration:none;background-position:-228px -47px;background-color:#FF4E00;}
+.s-index-down:hover{background-position:-228px -74px;text-decoration:none;}

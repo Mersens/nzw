@@ -1,0 +1,65 @@
+.WangYuming{
+	width:862px;
+	margin:0px auto;
+	margin-top:20px;
+}
+.WangYuming .YuRight{
+	float:left;
+}
+.WangYuming .YuLeft{
+	float:left;
+	margin-right:10px;
+}
+.WangYuming .TShezhi{
+	margin:0px auto;
+}
+.WangYuming .TShezhi h3{
+	float:left;
+	width:110px;
+	text-align:right;
+	line-height:25px;
+	margin-right:5px;
+}
+.WangYuming .TShezhi p{
+	float:left;
+	font-size:12px;
+	line-height:25px;
+}
+.WangYuming .TShezhi i{
+	float:left;
+	margin-left:15px;
+	font-size:12px;
+	color:#888;
+	line-height:25px;
+}
+.WangYuming .TShezhi input{
+	height:25px;
+	width:90px;
+	border:1px solid #cbcbcb;
+	line-height:25px;
+	margin-left:4px;
+	margin-right:4px;
+	font-family:"微软雅黑";
+	font-size:12px;
+	color:#666;
+}
+.WangYuming .ShezhiAnniu{
+	margin-top:18px;
+	margin-left:115px;
+}
+.WangYuming .ShezhiAnniu input{
+	width:90px;
+	height:33px;
+	line-height:33px;
+	text-align:center;
+	font-size:12px;
+	color:#fff;
+	background:#093;
+	border:0px;
+	font-family:"微软雅黑";
+	border-radius:4px;
+	cursor:pointer;
+}
+.WangYuming .ShezhiAnniu input:hover{
+	background:#16b14c;
+}

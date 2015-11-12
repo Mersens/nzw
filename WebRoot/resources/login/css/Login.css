@@ -1,0 +1,197 @@
+/* CSS Document */
+body{
+	background:#fff;
+}
+.Login_heard{
+	width:100%;
+	height:110px;
+	border-bottom:2px solid #00833c;
+}
+.Login_heard .heard_Cont{
+	width:1190px;
+	margin:0px auto;
+}
+.Login_heard .heard_Cont .Cont_logo{
+	float:left;
+	margin-top:14px;	
+}
+.Login_heard .heard_Cont .Cont_Shuxian{
+	float:left;
+	width:2px;
+	height:50px;
+	background:#d3d3d3;
+	margin-top:33px;
+	margin-left:15px;
+}
+.Login_heard .heard_Cont .Cont_Huiyuan{
+	float:left;
+	margin-left:15px;
+	margin-top:46px;
+}
+.Login_heard .heard_Cont .Cont_Denglu{
+	float:right;
+	margin-top:80px;
+}
+.Login_heard .heard_Cont .Cont_Denglu a{
+	color:#e60012;
+}
+.Login_heard .heard_Cont .Cont_Denglu a:hover{
+	color:#ff7580;}
+
+.register{
+	width:1190px;
+	margin:0px auto;
+	margin-top:50px;
+}
+.Regi_banner{
+	float:left;
+}
+.Regi_login{
+	float:right;
+	width:290px;
+	margin-right:25px;
+}
+.Regi_login .DengMod{
+	width:290px;
+	margin-top:25px;
+}
+.Regi_login .DengMod input{
+	height:40px;
+	border:0px;
+	padding: 0 5px;
+	padding-right:18px;
+	border:1px solid #d3d3d3;
+	width: 255px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+	line-height:39px\9;
+	_line-height:40px;
+	font-family: "微软雅黑";
+	background:url(../images/DengName.png) no-repeat right center;
+	background-position:245px;
+	color:#666;
+}
+.Regi_login .Shouji input{
+	background:url(../images/DengShouji.png) no-repeat right center;
+	background-position:240px;	
+}
+.Regi_login .DengMi input{
+	background:url(../images/DengMima.png) no-repeat right center;
+	background-position:240px;	
+}
+.Regi_login .HuoquYzm{
+	width:282px;
+}
+.Regi_login .HuoquYzm p.P_input{
+	float:left;
+	width:148px;
+}
+.Regi_login .HuoquYzm p.P_input input{
+	width:133px;
+	padding-right:7px;
+}
+.Regi_login .HuoquYzm a{
+	float:right;
+	display:block;
+	width:120px;
+	height:40px;
+	border:1px solid #d3d3d3;
+	text-align:center;
+	line-height:40px;
+	font-size:12px;
+	text-decoration:none;
+	background:#f6f6f6;
+	color:#454545;
+}
+.Regi_login .HuoquYzm input.Input_Yzm{
+	width:130px;
+	float:left;
+	height:42px;
+	text-align:center;
+	padding:0px;
+	margin-left:2px;
+	cursor:pointer;
+}
+
+.Regi_login .DengXuanze{
+	width:280px;
+	margin-top:25px;
+}
+.Regi_login .DengXuanze .Zidong{
+	float:left;
+	font-size:12px;
+}
+.Regi_login .DengXuanze .Zidong input{
+	float:left;
+	width:12px;
+	height:12px;
+	margin-top:3px;
+	*height:12px!important;
+	margin-right:3px;
+	border:1px solid #d3d3d3;
+}
+.Regi_login .DengXuanze .Zidong em{
+	float:left;
+}
+.Regi_login .DengXuanze .Zidong a{
+	color:#1f5d8e;
+}
+.Regi_login .DengXuanze .forgPass{
+	float:right;
+}
+.Regi_login .DengXuanze .forgPass a{
+	color:#002e73;
+	text-decoration:underline;
+}
+.Regi_login .DengXuanze .forgPass a:hover{
+	color:#5491ec;
+}
+.Regi_login .Submit a{
+	display:block;
+	width:280px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	text-decoration:none;
+	background:#ff2e00;
+	color:#fff;
+	border-radius:4px;
+	font-size:16px;
+}
+.Regi_login .Submit a:hover{
+	background:#ff795b;
+}
+.Regi_login .Submit2 a{
+	display:block;
+	width:280px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	text-decoration:none;
+	color:#fff;
+	border-radius:4px;
+	font-size:16px;
+	background:#b9b0b1;
+}
+
+
+
+.Regi_login .Mianfei{
+	width:280px;
+	margin-top:10px;
+}
+.Regi_login .Mianfei .CuowuInfo{
+	float:left;
+	color:#ff2e00;
+}
+.Regi_login .Mianfei .MianLogin{
+	float:right;
+}
+.Regi_login .Mianfei .MianLogin a{
+	color:#ff2e00;
+	text-decoration:underline;
+}
+.Regi_login .Mianfei .MianLogin a:hover{
+	color:#ff7580;	
+}
