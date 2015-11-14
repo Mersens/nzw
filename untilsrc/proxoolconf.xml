@@ -2,11 +2,11 @@
 <something-else-entirely>
 	<proxool>
 		<alias>javawindPool</alias>
-			<driver-url>jdbc:mysql://192.168.0.222:3306/nongzi?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=UTF-8</driver-url>
-			<driver-class>com.mysql.jdbc.Driver</driver-class>
+			<driver-url></driver-url>
+			<driver-class></driver-class>
 			<driver-properties>
-			<property name="user" value="root"/>
-			<property name="password" value="root"/>
+			<property name="user" value=""/>
+			<property name="password" value=""/>
 			</driver-properties>
 		<house-keeping-sleep-time>90000</house-keeping-sleep-time>
 		<prototype-count>10</prototype-count>
